@@ -15,19 +15,19 @@ addBtn.addEventListener('click',function(){
     const date = dateInput.value;
 
     if(category ===''){
-        alert('please select a category');
+        alert('Please select a category ❗');
         return;
     }
     if(isNaN(amount) || amount<=0){
-        alert('please enter a valid amount');
+        alert('Please enter a valid amount ❗');
         return;
     }
     if(info ===''){
-        alert('please enter a valid amount info');
+        alert('Please enter a valid amount info ❗');
         return;
     }
     if(date ===''){
-        alert('please select a date');
+        alert('Please select a date ❗');
         return;
     }
     expenses.push({category,amount,info,date})
